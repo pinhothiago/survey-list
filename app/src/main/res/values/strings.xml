@@ -7,4 +7,8 @@
     <string name="dialog_description">Você está prestes a iniciar a pesquisa. Deseja continuar?</string>
     <string name="cancel">Cancelar</string>
     <string name="start_survey">Sim, começar</string>
+    <string name="loading_description">Carregando pesquisas...</string>
+    <string name="desc_cancel_button">Cancelar início da pesquisa</string>
+    <string name="desc_start_button">Começar a pesquisa</string>
+
 </resources>

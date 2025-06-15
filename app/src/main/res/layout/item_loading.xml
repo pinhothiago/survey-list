@@ -8,6 +8,8 @@
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleSmall"
         android:layout_width="48dp"
-        android:layout_height="48dp" />
+        android:layout_height="48dp"
+        android:contentDescription="@string/loading_description"
+        />
 
 </FrameLayout>

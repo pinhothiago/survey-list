@@ -36,6 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cancel"
+            android:contentDescription="@string/desc_cancel_button"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:textColor="?attr/colorPrimary" />
 
@@ -44,6 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/start_survey"
+            android:contentDescription="@string/desc_start_button"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:textColor="?attr/colorPrimary"
             android:layout_marginStart="12dp"/>

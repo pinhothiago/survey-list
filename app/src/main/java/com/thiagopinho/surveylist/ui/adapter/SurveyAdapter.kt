@@ -55,8 +55,20 @@ class SurveyAdapter(
         if (holder is SurveyViewHolder) {
             val survey = surveys[position]!!
             holder.title.text = survey.title
-            holder.duration.text = context.getString(R.string.survey_duration, survey.duration)
-            holder.reward.text = context.getString(R.string.survey_reward, survey.reward)
+            holder.title.contentDescription = survey.title
+
+            val durationText = context.getString(R.string.survey_duration, survey.duration)
+            holder.duration.text = durationText
+            holder.duration.contentDescription = durationText
+
+            val rewardText = context.getString(R.string.survey_reward, survey.reward)
+            holder.reward.text = rewardText
+            holder.reward.contentDescription = rewardText
+
+            val buttonText = context.getString(R.string.btn_respond)
+            holder.button.text = buttonText
+            holder.button.contentDescription = "$buttonText à pesquisa ${survey.title}"
+
             holder.button.setOnClickListener { onRespondClick() }
         }
     }
